@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "2eda9ab0-894b-4dd8-be91-1cda727ecbb3",
+		"name": "Blog Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29566718"
+	},
+	"item": [
+		{
+			"name": "Blogs",
+			"item": [
+				{
+					"name": "Create Blog",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ajker Alo\",\r\n    \"owner\": \"Riad Islam\",\r\n    \"article\": \"a;lkjfkalsdfj al;ksjdflk asdfj;lkjas fd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/blog/create",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"blog",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Blogs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/blogs",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"blogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Blog",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/blog/6752966ea7d44936cf61b21f",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"blog",
+								"6752966ea7d44936cf61b21f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Blog",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ajker Alo\",\r\n    \"owner\": \"Riad Islam\",\r\n    \"article\": \"a;lkjfkalsdfj al;ksjdflk asdfj;lkjas fd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/blog/6752966ea7d44936cf61b21f",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"blog",
+								"6752966ea7d44936cf61b21f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Service",
+			"item": [
+				{
+					"name": "Create Service",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"Understanding React Components\",\r\n    \"description\": \"Learn about React components, the building blocks of a React application, and how to create reusable UI elements.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/service/create",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"service",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Services",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/services",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"services"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Service",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/service/6752ba1a69af00a06a7525bd",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"service",
+								"6752ba1a69af00a06a7525bd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Service",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"Understanding React \",\r\n    \"description\": \"Learn about React, the building blocks of a React application, and how to create reusable UI elements.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/service/6752ba1a69af00a06a7525bd",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"service",
+								"6752ba1a69af00a06a7525bd"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Teams",
+			"item": [
+				{
+					"name": "Create Team",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"name\": \"John Doe\",\r\n    \"designation\": \"Senior Developer\",\r\n    \"experience\": \"8 years\",\r\n    \"description\": \"John is a seasoned developer with a passion for building scalable and performant web applications. He specializes in JavaScript and Node.js.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/team/create",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"team",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Teams",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/teams",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Team",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/team/6752bb0969af00a06a7525c3",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"team",
+								"6752bb0969af00a06a7525c3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Team",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"name\": \"John Def\",\r\n    \"designation\": \"Junior Developer\",\r\n    \"experience\": \"1 years\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/team/6752bb0969af00a06a7525c3",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"team",
+								"6752bb0969af00a06a7525c3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

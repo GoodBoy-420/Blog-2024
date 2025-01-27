@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d7f"
+  },
+  "title": "Exploring the Depths of Space",
+  "owner": "John Doe",
+  "article": "Space exploration has always fascinated humanity. With new advancements in technology, we are closer than ever to uncovering the mysteries of the universe.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:00:00Z",
+    "updatedAt": "2024-12-06T10:00:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d80"
+  },
+  "title": "The Future of Artificial Intelligence",
+  "owner": "Alice Smith",
+  "article": "AI is transforming industries across the globe. In this article, we delve into the latest developments and what the future holds for machine learning and automation.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:05:00Z",
+    "updatedAt": "2024-12-06T10:05:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d81"
+  },
+  "title": "The Rise of Electric Vehicles",
+  "owner": "Robert Johnson",
+  "article": "Electric vehicles (EVs) are becoming more mainstream, offering a cleaner alternative to traditional gasoline-powered cars. We explore the benefits and challenges of this shift.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:10:00Z",
+    "updatedAt": "2024-12-06T10:10:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d82"
+  },
+  "title": "Climate Change: A Global Crisis",
+  "owner": "Mary Williams",
+  "article": "Climate change is one of the most pressing issues of our time. From rising sea levels to extreme weather patterns, this article examines the science and solutions.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:15:00Z",
+    "updatedAt": "2024-12-06T10:15:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d83"
+  },
+  "title": "The Impact of Social Media on Society",
+  "owner": "David Lee",
+  "article": "Social media has revolutionized how we communicate and interact, but it also raises concerns about privacy, mental health, and misinformation.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:20:00Z",
+    "updatedAt": "2024-12-06T10:20:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d84"
+  },
+  "title": "The Importance of Mental Health Awareness",
+  "owner": "Emily Davis",
+  "article": "Mental health is often overlooked, but it is crucial for overall well-being. This article explores the importance of awareness, self-care, and seeking help.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:25:00Z",
+    "updatedAt": "2024-12-06T10:25:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d85"
+  },
+  "title": "Advances in Renewable Energy",
+  "owner": "Michael Brown",
+  "article": "Renewable energy sources such as wind, solar, and hydropower are becoming increasingly cost-effective. This article examines the potential of these technologies to combat climate change.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:30:00Z",
+    "updatedAt": "2024-12-06T10:30:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d86"
+  },
+  "title": "The Future of Work: Automation and Remote Collaboration",
+  "owner": "Linda Green",
+  "article": "The world of work is changing rapidly with advancements in automation and remote technologies. We discuss the implications for the global workforce and what it means for businesses and employees.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:35:00Z",
+    "updatedAt": "2024-12-06T10:35:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d87"
+  },
+  "title": "The Rise of Online Education",
+  "owner": "James Carter",
+  "article": "Online learning platforms have surged in popularity, offering flexible educational opportunities. This article explores the pros and cons of online education compared to traditional classroom settings.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:40:00Z",
+    "updatedAt": "2024-12-06T10:40:00Z"
+  },
+  "versionKey": false
+},
+{
+  "_id": {
+    "$oid": "6752964e688ebf45fba89d88"
+  },
+  "title": "The Evolution of Smart Cities",
+  "owner": "Sarah Martinez",
+  "article": "Smart cities are integrating advanced technologies to improve urban living. From traffic management to energy efficiency, we explore how these cities are shaping the future of urban environments.",
+  "timestamps": {
+    "createdAt": "2024-12-06T10:45:00Z",
+    "updatedAt": "2024-12-06T10:45:00Z"
+  },
+  "versionKey": false
+}]
