@@ -5,7 +5,9 @@ import { Spinner, Table, Button } from "react-bootstrap";
 
 const AdminTeam = () => {
   const navigate = useNavigate();
-  const { datas, error, isLoading } = UseFetch("/api/v1/teams");
+  const { datas, error, isLoading } = UseFetch(
+    `${import.meta.env.VITE_BACKEND_URL}/api/v1/teams`
+  );
   const [teamMembers, setTeamMembers] = useState([]);
 
   useEffect(() => {

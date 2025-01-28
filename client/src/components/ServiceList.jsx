@@ -3,7 +3,9 @@ import UseFetch from "../hooks/UseFetch";
 import { Spinner, Col, Row, Card } from "react-bootstrap";
 
 const ServiceList = () => {
-  const { datas, error, isLoading } = UseFetch("/api/v1/services");
+  const { datas, error, isLoading } = UseFetch(
+    `${import.meta.env.VITE_BACKEND_URL}/api/v1/services`
+  );
   const [services, setServices] = useState([]);
 
   useEffect(() => {

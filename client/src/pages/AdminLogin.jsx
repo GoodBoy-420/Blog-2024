@@ -13,7 +13,10 @@ const AdminLogin = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("/api/v1/login", { email, password });
+      const response = await axios.post(
+        `${import.meta.env.VITE_BACKEND_URL}/api/v1/login`,
+        { email, password }
+      );
 
       if (response.status === 200 && response.data.status) {
         navigate("/dashboard");
